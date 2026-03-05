@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- ===== PWA / iOS Meta Tags ===== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+
+    <!-- iOS: cho phép cài như app -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="漢字" />
+
+    <!-- Theme color (Android + iOS Safari toolbar) -->
+    <meta name="theme-color" content="#0f3460" />
+
+    <!-- iOS splash / icon (dùng icon-512 cho mọi kích thước, đơn giản nhất) -->
+    <link rel="apple-touch-icon" href="/icons/icon-512.png" />
+
+    <!-- PWA manifest -->
+    <link rel="manifest" href="/manifest.json" />
+
+    <title>漢字マスター</title>
+
+    <style>
+      /* Tránh bounce scroll trên iOS */
+      html, body {
+        overscroll-behavior: none;
+        -webkit-overflow-scrolling: touch;
+        background-color: #0d0d1a;
+      }
+      /* Safe area cho iPhone có notch / Dynamic Island */
+      #root {
+        padding-top: env(safe-area-inset-top);
+        padding-bottom: env(safe-area-inset-bottom);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+
+    <!-- Register Service Worker -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js')
+            .then(() => console.log('SW registered'))
+            .catch((err) => console.log('SW error:', err));
+        });
+      }
+    </script>
+  </body>
+</html>
