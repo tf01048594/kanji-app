@@ -33,6 +33,26 @@ const KANJI_N5 = [
   { id: 28, kanji: "車", reading: "しゃ／くるま", meaning: "Xe / Ô tô", level: "N5", example: "車で学校へ行きます。", exampleMeaning: "Tôi đi học bằng xe.", exampleFurigana: [{t:"車",r:"くるま"},{t:"で"},{t:"学校",r:"がっこう"},{t:"へ"},{t:"行",r:"い"},{t:"きます。"}] },
   { id: 29, kanji: "気", reading: "き／け", meaning: "Khí / Tâm trạng", level: "N5", example: "元気ですか？", exampleMeaning: "Bạn khỏe không?", exampleFurigana: [{t:"元気",r:"げんき"},{t:"ですか？"}] },
   { id: 30, kanji: "花", reading: "か／はな", meaning: "Hoa", level: "N5", example: "庭に花が咲いています。", exampleMeaning: "Hoa đang nở trong sân.", exampleFurigana: [{t:"庭",r:"にわ"},{t:"に"},{t:"花",r:"はな"},{t:"が"},{t:"咲",r:"さ"},{t:"いています。"}] },
+  { id: 31, kanji: "白", reading: "はく／しろ", meaning: "Màu trắng", level: "N5", example: "彼女は白いドレスを着ています。", exampleMeaning: "Cô ấy mặc váy trắng.", exampleFurigana: [{t:"彼女",r:"かのじょ"},{t:"は"},{t:"白",r:"しろ"},{t:"いドレスを"},{t:"着",r:"き"},{t:"ています。"}] },
+  { id: 32, kanji: "黒", reading: "こく／くろ", meaning: "Màu đen", level: "N5", example: "黒い猫が好きです。", exampleMeaning: "Tôi thích mèo đen.", exampleFurigana: [{t:"黒",r:"くろ"},{t:"い"},{t:"猫",r:"ねこ"},{t:"が"},{t:"好",r:"す"},{t:"きです。"}] },
+  { id: 33, kanji: "赤", reading: "せき／あか", meaning: "Màu đỏ", level: "N5", example: "赤いりんごを食べました。", exampleMeaning: "Tôi đã ăn táo đỏ.", exampleFurigana: [{t:"赤",r:"あか"},{t:"いりんごを"},{t:"食",r:"た"},{t:"べました。"}] },
+  { id: 34, kanji: "青", reading: "せい／あお", meaning: "Màu xanh", level: "N5", example: "空が青いです。", exampleMeaning: "Bầu trời xanh.", exampleFurigana: [{t:"空",r:"そら"},{t:"が"},{t:"青",r:"あお"},{t:"いです。"}] },
+  { id: 35, kanji: "電", reading: "でん", meaning: "Điện / Điện thoại", level: "N5", example: "電車で会社へ行きます。", exampleMeaning: "Tôi đi làm bằng tàu điện.", exampleFurigana: [{t:"電車",r:"でんしゃ"},{t:"で"},{t:"会社",r:"かいしゃ"},{t:"へ"},{t:"行",r:"い"},{t:"きます。"}] },
+  { id: 36, kanji: "駅", reading: "えき", meaning: "Ga tàu", level: "N5", example: "駅の前で待っています。", exampleMeaning: "Tôi đang đợi trước ga.", exampleFurigana: [{t:"駅",r:"えき"},{t:"の"},{t:"前",r:"まえ"},{t:"で"},{t:"待",r:"ま"},{t:"っています。"}] },
+  { id: 37, kanji: "道", reading: "どう／みち", meaning: "Con đường / Đạo", level: "N5", example: "この道をまっすぐ行ってください。", exampleMeaning: "Hãy đi thẳng con đường này.", exampleFurigana: [{t:"この"},{t:"道",r:"みち"},{t:"をまっすぐ"},{t:"行",r:"い"},{t:"ってください。"}] },
+  { id: 38, kanji: "時", reading: "じ／とき", meaning: "Giờ / Thời gian", level: "N5", example: "今何時ですか？", exampleMeaning: "Bây giờ là mấy giờ?", exampleFurigana: [{t:"今"},{t:"何時",r:"なんじ"},{t:"ですか？"}] },
+  { id: 39, kanji: "間", reading: "かん／あいだ", meaning: "Khoảng thời gian / Khoảng cách", level: "N5", example: "一時間勉強しました。", exampleMeaning: "Tôi đã học một tiếng đồng hồ.", exampleFurigana: [{t:"一時間",r:"いちじかん"},{t:"勉強",r:"べんきょう"},{t:"しました。"}] },
+  { id: 40, kanji: "年", reading: "ねん／とし", meaning: "Năm / Tuổi", level: "N5", example: "今年は何年ですか？", exampleMeaning: "Năm nay là năm mấy?", exampleFurigana: [{t:"今年",r:"ことし"},{t:"は"},{t:"何年",r:"なんねん"},{t:"ですか？"}] },
+  { id: 41, kanji: "父", reading: "ふ／ちち", meaning: "Cha / Bố", level: "N5", example: "父は会社員です。", exampleMeaning: "Bố tôi là nhân viên công ty.", exampleFurigana: [{t:"父",r:"ちち"},{t:"は"},{t:"会社員",r:"かいしゃいん"},{t:"です。"}] },
+  { id: 42, kanji: "母", reading: "ぼ／はは", meaning: "Mẹ", level: "N5", example: "母は料理が上手です。", exampleMeaning: "Mẹ tôi nấu ăn giỏi.", exampleFurigana: [{t:"母",r:"はは"},{t:"は"},{t:"料理",r:"りょうり"},{t:"が"},{t:"上手",r:"じょうず"},{t:"です。"}] },
+  { id: 43, kanji: "子", reading: "し／こ", meaning: "Con / Đứa trẻ", level: "N5", example: "子供と公園へ行きました。", exampleMeaning: "Tôi đã đi công viên với con.", exampleFurigana: [{t:"子供",r:"こども"},{t:"と"},{t:"公園",r:"こうえん"},{t:"へ"},{t:"行",r:"い"},{t:"きました。"}] },
+  { id: 44, kanji: "犬", reading: "けん／いぬ", meaning: "Chó", level: "N5", example: "毎日犬を散歩させます。", exampleMeaning: "Mỗi ngày tôi dắt chó đi dạo.", exampleFurigana: [{t:"毎日",r:"まいにち"},{t:"犬",r:"いぬ"},{t:"を"},{t:"散歩",r:"さんぽ"},{t:"させます。"}] },
+  { id: 45, kanji: "猫", reading: "びょう／ねこ", meaning: "Mèo", level: "N5", example: "家に猫が二匹います。", exampleMeaning: "Ở nhà tôi có hai con mèo.", exampleFurigana: [{t:"家",r:"いえ"},{t:"に"},{t:"猫",r:"ねこ"},{t:"が"},{t:"二匹",r:"にひき"},{t:"います。"}] },
+  { id: 46, kanji: "魚", reading: "ぎょ／さかな", meaning: "Cá", level: "N5", example: "魚を食べるのが好きです。", exampleMeaning: "Tôi thích ăn cá.", exampleFurigana: [{t:"魚",r:"さかな"},{t:"を"},{t:"食",r:"た"},{t:"べるのが"},{t:"好",r:"す"},{t:"きです。"}] },
+  { id: 47, kanji: "鳥", reading: "ちょう／とり", meaning: "Chim / Gia cầm", level: "N5", example: "鳥が空を飛んでいます。", exampleMeaning: "Chim đang bay trên bầu trời.", exampleFurigana: [{t:"鳥",r:"とり"},{t:"が"},{t:"空",r:"そら"},{t:"を"},{t:"飛",r:"と"},{t:"んでいます。"}] },
+  { id: 48, kanji: "先", reading: "せん／さき", meaning: "Trước / Tiên", level: "N5", example: "先生に質問します。", exampleMeaning: "Tôi hỏi giáo viên.", exampleFurigana: [{t:"先生",r:"せんせい"},{t:"に"},{t:"質問",r:"しつもん"},{t:"します。"}] },
+  { id: 49, kanji: "右", reading: "う／みぎ", meaning: "Bên phải", level: "N5", example: "右に曲がってください。", exampleMeaning: "Hãy rẽ phải.", exampleFurigana: [{t:"右",r:"みぎ"},{t:"に"},{t:"曲",r:"ま"},{t:"がってください。"}] },
+  { id: 50, kanji: "左", reading: "さ／ひだり", meaning: "Bên trái", level: "N5", example: "左側を歩いてください。", exampleMeaning: "Hãy đi phía bên trái.", exampleFurigana: [{t:"左側",r:"ひだりがわ"},{t:"を"},{t:"歩",r:"ある"},{t:"いてください。"}] },
 ];
 
 const KANJI_N4 = [
@@ -66,6 +86,26 @@ const KANJI_N4 = [
   { id: 128, kanji: "音", reading: "おん／おと", meaning: "Âm thanh / Tiếng", level: "N4", example: "音楽を聴くのが大好きです。", exampleMeaning: "Tôi rất thích nghe nhạc.", exampleFurigana: [{t:"音楽",r:"おんがく"},{t:"を"},{t:"聴",r:"き"},{t:"くのが"},{t:"大好",r:"だいす"},{t:"きです。"}] },
   { id: 129, kanji: "色", reading: "しょく／いろ", meaning: "Màu sắc", level: "N4", example: "青い色が好きです。", exampleMeaning: "Tôi thích màu xanh.", exampleFurigana: [{t:"青",r:"あお"},{t:"い"},{t:"色",r:"いろ"},{t:"が"},{t:"好",r:"す"},{t:"きです。"}] },
   { id: 130, kanji: "映", reading: "えい", meaning: "Chiếu / Phản chiếu", level: "N4", example: "映画館で映画を見ました。", exampleMeaning: "Tôi xem phim ở rạp chiếu phim.", exampleFurigana: [{t:"映画館",r:"えいがかん"},{t:"で"},{t:"映画",r:"えいが"},{t:"を"},{t:"見",r:"み"},{t:"ました。"}] },
+  { id: 131, kanji: "覚", reading: "かく／おぼ", meaning: "Nhớ / Học thuộc", level: "N4", example: "単語を覚えましょう。", exampleMeaning: "Hãy học thuộc từ vựng.", exampleFurigana: [{t:"単語",r:"たんご"},{t:"を"},{t:"覚",r:"おぼ"},{t:"えましょう。"}] },
+  { id: 132, kanji: "落", reading: "らく／お", meaning: "Rơi / Ngã / Rớt", level: "N4", example: "財布が落ちました。", exampleMeaning: "Ví tiền bị rơi.", exampleFurigana: [{t:"財布",r:"さいふ"},{t:"が"},{t:"落",r:"お"},{t:"ちました。"}] },
+  { id: 133, kanji: "止", reading: "し／と", meaning: "Dừng lại / Ngăn", level: "N4", example: "赤信号で車が止まります。", exampleMeaning: "Xe dừng lại khi đèn đỏ.", exampleFurigana: [{t:"赤信号",r:"あかしんごう"},{t:"で"},{t:"車",r:"くるま"},{t:"が"},{t:"止",r:"と"},{t:"まります。"}] },
+  { id: 134, kanji: "引", reading: "いん／ひ", meaning: "Kéo / Tra cứu", level: "N4", example: "辞書を引いて調べます。", exampleMeaning: "Tôi tra từ điển để tìm hiểu.", exampleFurigana: [{t:"辞書",r:"じしょ"},{t:"を"},{t:"引",r:"ひ"},{t:"いて"},{t:"調",r:"しら"},{t:"べます。"}] },
+  { id: 135, kanji: "押", reading: "おう／お", meaning: "Đẩy / Nhấn", level: "N4", example: "このボタンを押してください。", exampleMeaning: "Hãy nhấn nút này.", exampleFurigana: [{t:"このボタンを"},{t:"押",r:"お"},{t:"してください。"}] },
+  { id: 136, kanji: "切", reading: "せつ／き", meaning: "Cắt / Quan trọng", level: "N4", example: "ハサミで紙を切ります。", exampleMeaning: "Tôi cắt giấy bằng kéo.", exampleFurigana: [{t:"ハサミで"},{t:"紙",r:"かみ"},{t:"を"},{t:"切",r:"き"},{t:"ります。"}] },
+  { id: 137, kanji: "開", reading: "かい／あ", meaning: "Mở / Khai mạc", level: "N4", example: "窓を開けてください。", exampleMeaning: "Hãy mở cửa sổ.", exampleFurigana: [{t:"窓",r:"まど"},{t:"を"},{t:"開",r:"あ"},{t:"けてください。"}] },
+  { id: 138, kanji: "閉", reading: "へい／し", meaning: "Đóng / Kết thúc", level: "N4", example: "ドアを閉めてください。", exampleMeaning: "Hãy đóng cửa lại.", exampleFurigana: [{t:"ドアを"},{t:"閉",r:"し"},{t:"めてください。"}] },
+  { id: 139, kanji: "運", reading: "うん／はこ", meaning: "Vận chuyển / May mắn", level: "N4", example: "荷物を運んでもらえますか？", exampleMeaning: "Bạn có thể giúp tôi chuyển đồ không?", exampleFurigana: [{t:"荷物",r:"にもつ"},{t:"を"},{t:"運",r:"はこ"},{t:"んでもらえますか？"}] },
+  { id: 140, kanji: "乗", reading: "じょう／の", meaning: "Lên / Đi (phương tiện)", level: "N4", example: "バスに乗って学校へ行きます。", exampleMeaning: "Tôi đi học bằng xe buýt.", exampleFurigana: [{t:"バスに"},{t:"乗",r:"の"},{t:"って"},{t:"学校",r:"がっこう"},{t:"へ"},{t:"行",r:"い"},{t:"きます。"}] },
+  { id: 141, kanji: "降", reading: "こう／お", meaning: "Xuống / Rơi (mưa/tuyết)", level: "N4", example: "次の駅で降ります。", exampleMeaning: "Tôi xuống ở ga tiếp theo.", exampleFurigana: [{t:"次",r:"つぎ"},{t:"の"},{t:"駅",r:"えき"},{t:"で"},{t:"降",r:"お"},{t:"ります。"}] },
+  { id: 142, kanji: "着", reading: "ちゃく／つ", meaning: "Đến nơi / Mặc (quần áo)", level: "N4", example: "東京に着きました。", exampleMeaning: "Tôi đã đến Tokyo.", exampleFurigana: [{t:"東京",r:"とうきょう"},{t:"に"},{t:"着",r:"つ"},{t:"きました。"}] },
+  { id: 143, kanji: "洗", reading: "せん／あら", meaning: "Rửa / Giặt", level: "N4", example: "食事の前に手を洗います。", exampleMeaning: "Tôi rửa tay trước bữa ăn.", exampleFurigana: [{t:"食事",r:"しょくじ"},{t:"の"},{t:"前",r:"まえ"},{t:"に"},{t:"手",r:"て"},{t:"を"},{t:"洗",r:"あら"},{t:"います。"}] },
+  { id: 144, kanji: "渡", reading: "と／わた", meaning: "Qua / Giao cho", level: "N4", example: "橋を渡って公園へ行きます。", exampleMeaning: "Tôi qua cầu để đến công viên.", exampleFurigana: [{t:"橋",r:"はし"},{t:"を"},{t:"渡",r:"わた"},{t:"って"},{t:"公園",r:"こうえん"},{t:"へ"},{t:"行",r:"い"},{t:"きます。"}] },
+  { id: 145, kanji: "返", reading: "へん／かえ", meaning: "Trả lại / Trở về", level: "N4", example: "借りた本を返しました。", exampleMeaning: "Tôi đã trả sách đã mượn.", exampleFurigana: [{t:"借",r:"か"},{t:"りた"},{t:"本",r:"ほん"},{t:"を"},{t:"返",r:"かえ"},{t:"しました。"}] },
+  { id: 146, kanji: "捨", reading: "しゃ／す", meaning: "Vứt bỏ / Từ bỏ", level: "N4", example: "ゴミを捨ててください。", exampleMeaning: "Hãy vứt rác đi.", exampleFurigana: [{t:"ゴミを"},{t:"捨",r:"す"},{t:"ててください。"}] },
+  { id: 147, kanji: "拾", reading: "しゅう／ひろ", meaning: "Nhặt lên / Lượm", level: "N4", example: "落ちた財布を拾いました。", exampleMeaning: "Tôi đã nhặt chiếc ví bị rơi.", exampleFurigana: [{t:"落",r:"お"},{t:"ちた"},{t:"財布",r:"さいふ"},{t:"を"},{t:"拾",r:"ひろ"},{t:"いました。"}] },
+  { id: 148, kanji: "比", reading: "ひ／くら", meaning: "So sánh", level: "N4", example: "二つの値段を比べました。", exampleMeaning: "Tôi đã so sánh hai mức giá.", exampleFurigana: [{t:"二",r:"ふた"},{t:"つの"},{t:"値段",r:"ねだん"},{t:"を"},{t:"比",r:"くら"},{t:"べました。"}] },
+  { id: 149, kanji: "調", reading: "ちょう／しら", meaning: "Điều tra / Tra cứu", level: "N4", example: "インターネットで調べます。", exampleMeaning: "Tôi tra cứu trên internet.", exampleFurigana: [{t:"インターネットで"},{t:"調",r:"しら"},{t:"べます。"}] },
+  { id: 150, kanji: "選", reading: "せん／えら", meaning: "Chọn lựa / Lựa chọn", level: "N4", example: "好きな色を選んでください。", exampleMeaning: "Hãy chọn màu bạn thích.", exampleFurigana: [{t:"好",r:"す"},{t:"きな"},{t:"色",r:"いろ"},{t:"を"},{t:"選",r:"えら"},{t:"んでください。"}] },
 ];
 
 const KANJI_N3 = [
@@ -90,15 +130,35 @@ const KANJI_N3 = [
   { id: 219, kanji: "化", reading: "か／ば", meaning: "Biến đổi / Hóa", level: "N3", example: "社会は急速に変化しています。", exampleMeaning: "Xã hội đang thay đổi nhanh chóng.", exampleFurigana: [{t:"社会",r:"しゃかい"},{t:"は"},{t:"急速",r:"きゅうそく"},{t:"に"},{t:"変化",r:"へんか"},{t:"しています。"}] },
   { id: 220, kanji: "研", reading: "けん", meaning: "Nghiên cứu / Mài giũa", level: "N3", example: "新しい研究を始めました。", exampleMeaning: "Tôi đã bắt đầu nghiên cứu mới.", exampleFurigana: [{t:"新",r:"あたら"},{t:"しい"},{t:"研究",r:"けんきゅう"},{t:"を"},{t:"始",r:"はじ"},{t:"めました。"}] },
   { id: 221, kanji: "題", reading: "だい", meaning: "Đề tài / Vấn đề", level: "N3", example: "この問題は難しいです。", exampleMeaning: "Vấn đề này khó.", exampleFurigana: [{t:"この"},{t:"問題",r:"もんだい"},{t:"は"},{t:"難",r:"むずか"},{t:"しいです。"}] },
-  { id: 222, kanji: "以", reading: "い", meaning: "Hơn / Trên (dùng kết hợp)", level: "N3", example: "三十分以上待ちました。", exampleMeaning: "Tôi đã đợi hơn 30 phút.", exampleFurigana: [{t:"三十分",r:"さんじゅっぷん"},{t:"以上",r:"いじょう"},{t:"待",r:"ま"},{t:"ちました。"}] },
+  { id: 222, kanji: "以", reading: "い", meaning: "Hơn / Trên (kết hợp)", level: "N3", example: "三十分以上待ちました。", exampleMeaning: "Tôi đã đợi hơn 30 phút.", exampleFurigana: [{t:"三十分",r:"さんじゅっぷん"},{t:"以上",r:"いじょう"},{t:"待",r:"ま"},{t:"ちました。"}] },
   { id: 223, kanji: "全", reading: "ぜん／すべ", meaning: "Toàn bộ / Tất cả", level: "N3", example: "全員が試験に合格しました。", exampleMeaning: "Tất cả mọi người đều đỗ kỳ thi.", exampleFurigana: [{t:"全員",r:"ぜんいん"},{t:"が"},{t:"試験",r:"しけん"},{t:"に"},{t:"合格",r:"ごうかく"},{t:"しました。"}] },
   { id: 224, kanji: "別", reading: "べつ／わか", meaning: "Khác / Chia ly", level: "N3", example: "別の方法を考えましょう。", exampleMeaning: "Hãy nghĩ đến phương pháp khác.", exampleFurigana: [{t:"別",r:"べつ"},{t:"の"},{t:"方法",r:"ほうほう"},{t:"を"},{t:"考",r:"かんが"},{t:"えましょう。"}] },
   { id: 225, kanji: "的", reading: "てき", meaning: "Mang tính (hậu tố)", level: "N3", example: "科学的な根拠が必要です。", exampleMeaning: "Cần có cơ sở khoa học.", exampleFurigana: [{t:"科学的",r:"かがくてき"},{t:"な"},{t:"根拠",r:"こんきょ"},{t:"が"},{t:"必要",r:"ひつよう"},{t:"です。"}] },
   { id: 226, kanji: "加", reading: "か／くわ", meaning: "Thêm vào / Tham gia", level: "N3", example: "スープに塩を加えました。", exampleMeaning: "Tôi đã thêm muối vào canh.", exampleFurigana: [{t:"スープに"},{t:"塩",r:"しお"},{t:"を"},{t:"加",r:"くわ"},{t:"えました。"}] },
   { id: 227, kanji: "末", reading: "まつ／すえ", meaning: "Cuối / Kết thúc", level: "N3", example: "週末に映画を見に行きます。", exampleMeaning: "Cuối tuần tôi đi xem phim.", exampleFurigana: [{t:"週末",r:"しゅうまつ"},{t:"に"},{t:"映画",r:"えいが"},{t:"を"},{t:"見",r:"み"},{t:"に"},{t:"行",r:"い"},{t:"きます。"}] },
   { id: 228, kanji: "初", reading: "しょ／はじ", meaning: "Đầu tiên / Ban đầu", level: "N3", example: "初めて日本に来たのは去年です。", exampleMeaning: "Lần đầu tiên tôi đến Nhật là năm ngoái.", exampleFurigana: [{t:"初",r:"はじ"},{t:"めて"},{t:"日本",r:"にほん"},{t:"に"},{t:"来",r:"き"},{t:"たのは"},{t:"去年",r:"きょねん"},{t:"です。"}] },
-  { id: 229, kanji: "合", reading: "ごう／あ", meaning: "Hợp / Gặp gỡ", level: "N3", example: "このシャツは私に合っていますか？", exampleMeaning: "Chiếc áo này có hợp với tôi không?", exampleFurigana: [{t:"このシャツは"},{t:"私",r:"わたし"},{t:"に"},{t:"合",r:"あ"},{t:"っていますか？"}] },
+  { id: 229, kanji: "合", reading: "ごう／あ", meaning: "Hợp / Phù hợp", level: "N3", example: "このシャツは私に合っていますか？", exampleMeaning: "Chiếc áo này có hợp với tôi không?", exampleFurigana: [{t:"このシャツは"},{t:"私",r:"わたし"},{t:"に"},{t:"合",r:"あ"},{t:"っていますか？"}] },
   { id: 230, kanji: "特", reading: "とく", meaning: "Đặc biệt / Riêng", level: "N3", example: "彼女は特に数学が得意です。", exampleMeaning: "Cô ấy đặc biệt giỏi toán.", exampleFurigana: [{t:"彼女",r:"かのじょ"},{t:"は"},{t:"特",r:"とく"},{t:"に"},{t:"数学",r:"すうがく"},{t:"が"},{t:"得意",r:"とくい"},{t:"です。"}] },
+  { id: 231, kanji: "増", reading: "ぞう／ふ", meaning: "Tăng / Thêm", level: "N3", example: "最近体重が増えました。", exampleMeaning: "Gần đây tôi tăng cân.", exampleFurigana: [{t:"最近",r:"さいきん"},{t:"体重",r:"たいじゅう"},{t:"が"},{t:"増",r:"ふ"},{t:"えました。"}] },
+  { id: 232, kanji: "減", reading: "げん／へ", meaning: "Giảm / Bớt", level: "N3", example: "残業を減らしたいです。", exampleMeaning: "Tôi muốn giảm làm thêm giờ.", exampleFurigana: [{t:"残業",r:"ざんぎょう"},{t:"を"},{t:"減",r:"へ"},{t:"らしたいです。"}] },
+  { id: 233, kanji: "深", reading: "しん／ふか", meaning: "Sâu / Thâm sâu", level: "N3", example: "この池はとても深いです。", exampleMeaning: "Cái ao này rất sâu.", exampleFurigana: [{t:"この"},{t:"池",r:"いけ"},{t:"はとても"},{t:"深",r:"ふか"},{t:"いです。"}] },
+  { id: 234, kanji: "広", reading: "こう／ひろ", meaning: "Rộng / Quảng bá", level: "N3", example: "公園はとても広いです。", exampleMeaning: "Công viên rất rộng.", exampleFurigana: [{t:"公園",r:"こうえん"},{t:"はとても"},{t:"広",r:"ひろ"},{t:"いです。"}] },
+  { id: 235, kanji: "速", reading: "そく／はや", meaning: "Nhanh / Tốc độ", level: "N3", example: "新幹線はとても速いです。", exampleMeaning: "Tàu cao tốc rất nhanh.", exampleFurigana: [{t:"新幹線",r:"しんかんせん"},{t:"はとても"},{t:"速",r:"はや"},{t:"いです。"}] },
+  { id: 236, kanji: "遅", reading: "ち／おそ", meaning: "Chậm / Muộn", level: "N3", example: "今日は仕事が遅くなりました。", exampleMeaning: "Hôm nay công việc kéo dài muộn.", exampleFurigana: [{t:"今日",r:"きょう"},{t:"は"},{t:"仕事",r:"しごと"},{t:"が"},{t:"遅",r:"おそ"},{t:"くなりました。"}] },
+  { id: 237, kanji: "強", reading: "きょう／つよ", meaning: "Mạnh / Giỏi", level: "N3", example: "彼は数学がとても強いです。", exampleMeaning: "Anh ấy rất giỏi toán.", exampleFurigana: [{t:"彼",r:"かれ"},{t:"は"},{t:"数学",r:"すうがく"},{t:"がとても"},{t:"強",r:"つよ"},{t:"いです。"}] },
+  { id: 238, kanji: "弱", reading: "じゃく／よわ", meaning: "Yếu / Kém", level: "N3", example: "私は運動が弱いです。", exampleMeaning: "Tôi kém thể thao.", exampleFurigana: [{t:"私",r:"わたし"},{t:"は"},{t:"運動",r:"うんどう"},{t:"が"},{t:"弱",r:"よわ"},{t:"いです。"}] },
+  { id: 239, kanji: "重", reading: "じゅう／おも", meaning: "Nặng / Quan trọng", level: "N3", example: "このスーツケースは重いです。", exampleMeaning: "Chiếc vali này nặng quá.", exampleFurigana: [{t:"このスーツケースは"},{t:"重",r:"おも"},{t:"いです。"}] },
+  { id: 240, kanji: "軽", reading: "けい／かる", meaning: "Nhẹ / Không nghiêm trọng", level: "N3", example: "このパソコンは軽くて持ち運びやすいです。", exampleMeaning: "Laptop này nhẹ và dễ mang theo.", exampleFurigana: [{t:"このパソコンは"},{t:"軽",r:"かる"},{t:"くて"},{t:"持",r:"も"},{t:"ち"},{t:"運",r:"はこ"},{t:"びやすいです。"}] },
+  { id: 241, kanji: "若", reading: "じゃく／わか", meaning: "Trẻ / Trẻ tuổi", level: "N3", example: "彼女はとても若く見えます。", exampleMeaning: "Cô ấy trông rất trẻ.", exampleFurigana: [{t:"彼女",r:"かのじょ"},{t:"はとても"},{t:"若",r:"わか"},{t:"く"},{t:"見",r:"み"},{t:"えます。"}] },
+  { id: 242, kanji: "難", reading: "なん／むずか", meaning: "Khó / Gian nan", level: "N3", example: "日本語の文法は難しいです。", exampleMeaning: "Ngữ pháp tiếng Nhật khó.", exampleFurigana: [{t:"日本語",r:"にほんご"},{t:"の"},{t:"文法",r:"ぶんぽう"},{t:"は"},{t:"難",r:"むずか"},{t:"しいです。"}] },
+  { id: 243, kanji: "易", reading: "い／やさ", meaning: "Dễ / Giản đơn", level: "N3", example: "この問題は意外に易しいです。", exampleMeaning: "Bài tập này dễ bất ngờ.", exampleFurigana: [{t:"この"},{t:"問題",r:"もんだい"},{t:"は"},{t:"意外",r:"いがい"},{t:"に"},{t:"易",r:"やさ"},{t:"しいです。"}] },
+  { id: 244, kanji: "近", reading: "きん／ちか", meaning: "Gần / Gần đây", level: "N3", example: "駅から近いところに住んでいます。", exampleMeaning: "Tôi sống gần ga.", exampleFurigana: [{t:"駅",r:"えき"},{t:"から"},{t:"近",r:"ちか"},{t:"いところに"},{t:"住",r:"す"},{t:"んでいます。"}] },
+  { id: 245, kanji: "遠", reading: "えん／とお", meaning: "Xa / Xa xôi", level: "N3", example: "実家は遠いので年に一度しか帰りません。", exampleMeaning: "Nhà cha mẹ xa nên mỗi năm tôi chỉ về một lần.", exampleFurigana: [{t:"実家",r:"じっか"},{t:"は"},{t:"遠",r:"とお"},{t:"いので"},{t:"年",r:"ねん"},{t:"に"},{t:"一度",r:"いちど"},{t:"しか"},{t:"帰",r:"かえ"},{t:"りません。"}] },
+  { id: 246, kanji: "高", reading: "こう／たか", meaning: "Cao / Đắt tiền", level: "N3", example: "このレストランは料金が高いです。", exampleMeaning: "Nhà hàng này giá đắt.", exampleFurigana: [{t:"このレストランは"},{t:"料金",r:"りょうきん"},{t:"が"},{t:"高",r:"たか"},{t:"いです。"}] },
+  { id: 247, kanji: "低", reading: "てい／ひく", meaning: "Thấp / Nhỏ", level: "N3", example: "今月は気温が低いです。", exampleMeaning: "Tháng này nhiệt độ thấp.", exampleFurigana: [{t:"今月",r:"こんげつ"},{t:"は"},{t:"気温",r:"きおん"},{t:"が"},{t:"低",r:"ひく"},{t:"いです。"}] },
+  { id: 248, kanji: "長", reading: "ちょう／なが", meaning: "Dài / Lâu dài", level: "N3", example: "髪が長くなりました。", exampleMeaning: "Tóc đã dài ra.", exampleFurigana: [{t:"髪",r:"かみ"},{t:"が"},{t:"長",r:"なが"},{t:"くなりました。"}] },
+  { id: 249, kanji: "短", reading: "たん／みじか", meaning: "Ngắn / Ngắn gọn", level: "N3", example: "夏は夜が短いです。", exampleMeaning: "Mùa hè ban đêm ngắn.", exampleFurigana: [{t:"夏",r:"なつ"},{t:"は"},{t:"夜",r:"よる"},{t:"が"},{t:"短",r:"みじか"},{t:"いです。"}] },
+  { id: 250, kanji: "明", reading: "めい／あか", meaning: "Sáng / Rõ ràng", level: "N3", example: "彼女は明るい性格です。", exampleMeaning: "Cô ấy có tính cách vui vẻ.", exampleFurigana: [{t:"彼女",r:"かのじょ"},{t:"は"},{t:"明",r:"あか"},{t:"るい"},{t:"性格",r:"せいかく"},{t:"です。"}] },
 ];
 
 const ALL_KANJI = { N5: KANJI_N5, N4: KANJI_N4, N3: KANJI_N3 };
@@ -108,10 +168,14 @@ const LEVEL_INFO = { N5: { desc: "Cơ bản" }, N4: { desc: "Sơ trung cấp" },
 // ==================== HELPERS ====================
 function getTodayKey() { return new Date().toISOString().split("T")[0]; }
 function getDayIndex() { return Math.floor((new Date() - new Date("2025-01-01")) / 86400000); }
-function getDailyWords(dayIndex, level) {
+function getSetCount(level) { return Math.floor(ALL_KANJI[level].length / 5); }
+function getSetWords(setIdx, level) {
   const arr = ALL_KANJI[level];
-  const start = (dayIndex * 5) % arr.length;
+  const start = (setIdx * 5) % arr.length;
   return Array.from({ length: 5 }, (_, i) => arr[(start + i) % arr.length]);
+}
+function getDailyWords(dayIndex, level) {
+  return getSetWords(dayIndex % getSetCount(level), level);
 }
 async function loadState(key) {
   try { const r = await window.storage.get(key); return r ? JSON.parse(r.value) : null; } catch { return null; }
@@ -175,16 +239,16 @@ function QuizView({ words, level, onDone }) {
   }
   if (done) return (
     <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 16, padding: "32px 0" }}>
-      <div style={{ fontSize: 64 }}>{score === 5 ? "🏆" : score >= 3 ? "🎯" : "📚"}</div>
-      <div style={{ fontSize: 28, fontWeight: 800, color: "#FFD700" }}>{score}/5</div>
-      <div style={{ fontSize: 14, color: "rgba(255,255,255,0.6)" }}>{score === 5 ? "Hoàn hảo!" : score >= 3 ? "Tốt lắm!" : "Ôn lại nhé!"}</div>
+      <div style={{ fontSize: 64 }}>{score === words.length ? "🏆" : score >= words.length * 0.6 ? "🎯" : "📚"}</div>
+      <div style={{ fontSize: 28, fontWeight: 800, color: "#FFD700" }}>{score}/{words.length}</div>
+      <div style={{ fontSize: 14, color: "rgba(255,255,255,0.6)" }}>{score === words.length ? "Hoàn hảo!" : score >= words.length * 0.6 ? "Tốt lắm!" : "Ôn lại nhé!"}</div>
       <button onClick={onDone} style={{ background: "#FFD700", color: "#1a1a2e", border: "none", borderRadius: 12, padding: "12px 32px", fontWeight: 800, fontSize: 15, cursor: "pointer" }}>Xong</button>
     </div>
   );
   return (
     <div>
       <div style={{ display: "flex", justifyContent: "space-between", marginBottom: 16 }}>
-        <div style={{ color: "rgba(255,255,255,0.4)", fontSize: 13 }}>Câu {qIdx + 1}/5</div>
+        <div style={{ color: "rgba(255,255,255,0.4)", fontSize: 13 }}>Câu {qIdx + 1}/{words.length}</div>
         <div style={{ color: "#FFD700", fontWeight: 700 }}>★ {score}</div>
       </div>
       <div style={{ textAlign: "center", marginBottom: 20 }}>
@@ -212,13 +276,22 @@ export default function KanjiApp() {
   const [quizActive, setQuizActive] = useState(false);
   const [showPicker, setShowPicker] = useState(false);
   const [loaded, setLoaded] = useState(false);
+  const [extraUnlocked, setExtraUnlocked] = useState({});
+  const [reviewSetIdx, setReviewSetIdx] = useState(null);
+  const [reviewQuizWords, setReviewQuizWords] = useState(null);
 
   const dayIdx = getDayIndex();
   const todayKey = `${level}:${getTodayKey()}`;
-  const todayWords = getDailyWords(dayIdx, level);
+  const todaySetIdx = dayIdx % getSetCount(level);
+  const todayWords = getSetWords(todaySetIdx, level);
   const todayDone = !!learnedDays[todayKey];
   const color = LEVEL_COLORS[level];
   const favWords = Object.values(ALL_KANJI).flat().filter(w => favorites.includes(w.id));
+  const todayExtraCount = extraUnlocked[todayKey] || 0;
+  const setCount = getSetCount(level);
+  const extraWordSets = Array.from({ length: todayExtraCount }, (_, i) =>
+    getSetWords((todaySetIdx + 1 + i) % setCount, level)
+  );
 
   function calcStreak(days, lv) {
     let s = 0, d = new Date();
@@ -232,7 +305,8 @@ export default function KanjiApp() {
       const favs = await loadState("kanji_favs") || [];
       const days = await loadState("kanji_days") || {};
       const lv = await loadState("kanji_level") || "N5";
-      setFavorites(favs); setLearnedDays(days); setLevel(lv);
+      const extra = await loadState("kanji_extra") || {};
+      setFavorites(favs); setLearnedDays(days); setLevel(lv); setExtraUnlocked(extra);
       setStreak({ N5: calcStreak(days, "N5"), N4: calcStreak(days, "N4"), N3: calcStreak(days, "N3") });
       setLoaded(true);
     })();
@@ -247,12 +321,21 @@ export default function KanjiApp() {
 
   async function switchLevel(lv) {
     setLevel(lv); setShowPicker(false); setQuizActive(false);
+    setReviewSetIdx(null); setReviewQuizWords(null);
     await saveState("kanji_level", lv);
   }
 
   async function toggleFav(id) {
     const nf = favorites.includes(id) ? favorites.filter(f => f !== id) : [...favorites, id];
     setFavorites(nf); await saveState("kanji_favs", nf);
+  }
+
+  async function unlockExtra() {
+    const count = (extraUnlocked[todayKey] || 0) + 1;
+    if (count > setCount - 1) return;
+    const ne = { ...extraUnlocked, [todayKey]: count };
+    setExtraUnlocked(ne);
+    await saveState("kanji_extra", ne);
   }
 
   if (!loaded) return <div style={{ minHeight: "100vh", background: "#0d0d1a", display: "flex", alignItems: "center", justifyContent: "center" }}><div style={{ color: "#FFD700", fontSize: 40 }}>漢</div></div>;
@@ -281,7 +364,6 @@ export default function KanjiApp() {
           </div>
         </div>
 
-        {/* LEVEL PICKER */}
         {showPicker && (
           <div style={{ marginTop: 12, display: "flex", gap: 8 }}>
             {["N5", "N4", "N3"].map(lv => (
@@ -297,8 +379,8 @@ export default function KanjiApp() {
 
       {/* TABS */}
       <div style={{ display: "flex", borderBottom: "1px solid rgba(255,255,255,0.08)", background: "#0d0d1a", position: "sticky", top: showPicker ? 162 : 82, zIndex: 9 }}>
-        {[{ key: "today", icon: "📅", label: "Hôm nay" }, { key: "quiz", icon: "⚡", label: "Quiz" }, { key: "favs", icon: "★", label: "Yêu thích" }, { key: "progress", icon: "📊", label: "Tiến độ" }].map(t => (
-          <button key={t.key} onClick={() => setTab(t.key)} style={{ flex: 1, padding: "12px 4px", background: "none", border: "none", borderBottom: tab === t.key ? `2px solid ${color}` : "2px solid transparent", color: tab === t.key ? color : "rgba(255,255,255,0.4)", fontSize: 11, fontWeight: 600, cursor: "pointer" }}>
+        {[{ key: "today", icon: "📅", label: "Hôm nay" }, { key: "review", icon: "📖", label: "Ôn tập" }, { key: "quiz", icon: "⚡", label: "Quiz" }, { key: "favs", icon: "★", label: "Thích" }, { key: "progress", icon: "📊", label: "Tiến độ" }].map(t => (
+          <button key={t.key} onClick={() => { setTab(t.key); if (t.key !== "review") { setReviewSetIdx(null); setReviewQuizWords(null); } }} style={{ flex: 1, padding: "10px 2px", background: "none", border: "none", borderBottom: tab === t.key ? `2px solid ${color}` : "2px solid transparent", color: tab === t.key ? color : "rgba(255,255,255,0.4)", fontSize: 10, fontWeight: 600, cursor: "pointer" }}>
             <div>{t.icon}</div><div>{t.label}</div>
           </button>
         ))}
@@ -311,7 +393,7 @@ export default function KanjiApp() {
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 16 }}>
             <div>
               <div style={{ fontWeight: 700, fontSize: 16 }}>5 từ hôm nay · <span style={{ color }}>{level}</span></div>
-              <div style={{ fontSize: 12, color: "rgba(255,255,255,0.4)" }}>Ngày {dayIdx + 1} · Nhấn thẻ để lật</div>
+              <div style={{ fontSize: 12, color: "rgba(255,255,255,0.4)" }}>Bộ {todaySetIdx + 1}/{setCount} · Nhấn thẻ để lật</div>
             </div>
             {!todayDone
               ? <button onClick={markDone} style={{ background: color, color: "#1a1a2e", border: "none", borderRadius: 10, padding: "8px 14px", fontWeight: 800, fontSize: 12, cursor: "pointer" }}>✓ Xong!</button>
@@ -319,6 +401,86 @@ export default function KanjiApp() {
             }
           </div>
           {todayWords.map(w => <FlipCard key={w.id} word={w} isFav={favorites.includes(w.id)} onToggleFav={toggleFav} />)}
+
+          {/* EXTRA UNLOCKED SETS */}
+          {extraWordSets.map((words, i) => (
+            <div key={i}>
+              <div style={{ display: "flex", alignItems: "center", gap: 8, margin: "20px 0 12px" }}>
+                <div style={{ flex: 1, height: 1, background: "rgba(255,255,255,0.1)" }} />
+                <div style={{ fontSize: 12, color: color, fontWeight: 700, background: `${color}22`, borderRadius: 6, padding: "3px 10px" }}>
+                  ➕ Bộ thêm {i + 1} · Bộ {(todaySetIdx + 1 + i) % setCount + 1}/{setCount}
+                </div>
+                <div style={{ flex: 1, height: 1, background: "rgba(255,255,255,0.1)" }} />
+              </div>
+              {words.map(w => <FlipCard key={w.id} word={w} isFav={favorites.includes(w.id)} onToggleFav={toggleFav} />)}
+            </div>
+          ))}
+
+          {/* LEARN MORE BUTTON */}
+          {todayExtraCount < setCount - 1 && (
+            <div style={{ textAlign: "center", marginTop: 20 }}>
+              <button onClick={unlockExtra} style={{ background: `${color}22`, border: `1px solid ${color}55`, borderRadius: 12, padding: "12px 24px", color, fontWeight: 700, fontSize: 14, cursor: "pointer" }}>
+                ➕ Học thêm 5 từ mới
+              </button>
+              <div style={{ fontSize: 11, color: "rgba(255,255,255,0.3)", marginTop: 6 }}>
+                Còn {setCount - 1 - todayExtraCount} bộ có thể mở khóa
+              </div>
+            </div>
+          )}
+          {todayExtraCount >= setCount - 1 && (
+            <div style={{ textAlign: "center", marginTop: 20, fontSize: 13, color: "rgba(255,255,255,0.4)" }}>
+              🎉 Bạn đã học tất cả các bộ từ hôm nay!
+            </div>
+          )}
+        </>}
+
+        {/* REVIEW / ÔN TẬP */}
+        {tab === "review" && <>
+          {reviewQuizWords ? (
+            <QuizView words={reviewQuizWords} level={level} onDone={() => setReviewQuizWords(null)} />
+          ) : (
+            <>
+              <div style={{ fontWeight: 700, fontSize: 16, marginBottom: 4 }}>Ôn tập · <span style={{ color }}>{level}</span></div>
+              <div style={{ fontSize: 12, color: "rgba(255,255,255,0.4)", marginBottom: 16 }}>
+                {setCount} bộ từ · {ALL_KANJI[level].length} từ · Chọn bộ để ôn lại
+              </div>
+              {Array.from({ length: setCount }, (_, i) => {
+                const words = getSetWords(i, level);
+                const isToday = i === todaySetIdx;
+                const isOpen = reviewSetIdx === i;
+                return (
+                  <div key={i} style={{ marginBottom: 10 }}>
+                    <div onClick={() => setReviewSetIdx(isOpen ? null : i)}
+                      style={{ background: isToday ? `${color}18` : "rgba(255,255,255,0.04)", borderRadius: 14, padding: "14px 16px", border: `1px solid ${isOpen ? color + "66" : isToday ? color + "44" : "rgba(255,255,255,0.08)"}`, cursor: "pointer", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                      <div>
+                        <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 4 }}>
+                          <span style={{ color, fontWeight: 800, fontSize: 14 }}>Bộ {i + 1}</span>
+                          {isToday && <span style={{ fontSize: 10, color, background: `${color}22`, borderRadius: 4, padding: "1px 6px" }}>Hôm nay</span>}
+                        </div>
+                        <div style={{ fontSize: 16, letterSpacing: 4, color: "#FFD700" }}>
+                          {words.map(w => w.kanji).join(" ")}
+                        </div>
+                        <div style={{ fontSize: 11, color: "rgba(255,255,255,0.35)", marginTop: 2 }}>
+                          {words.map(w => w.meaning.split(" / ")[0]).join(" · ")}
+                        </div>
+                      </div>
+                      <div style={{ color: "rgba(255,255,255,0.3)", fontSize: 16 }}>{isOpen ? "▲" : "▼"}</div>
+                    </div>
+
+                    {isOpen && (
+                      <div style={{ background: "rgba(0,0,0,0.2)", borderRadius: "0 0 14px 14px", padding: "12px 12px 16px", border: `1px solid ${color}33`, borderTop: "none", marginTop: -4 }}>
+                        {words.map(w => <FlipCard key={w.id} word={w} isFav={favorites.includes(w.id)} onToggleFav={toggleFav} />)}
+                        <button onClick={() => setReviewQuizWords(words)}
+                          style={{ width: "100%", background: `linear-gradient(135deg,${color},#FFD700)`, color: "#1a1a2e", border: "none", borderRadius: 12, padding: "12px", fontWeight: 800, fontSize: 14, cursor: "pointer", marginTop: 4 }}>
+                          ⚡ Quiz bộ này
+                        </button>
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
+            </>
+          )}
         </>}
 
         {/* QUIZ */}
@@ -327,7 +489,10 @@ export default function KanjiApp() {
             ? <div style={{ textAlign: "center", padding: "32px 0" }}>
               <div style={{ fontSize: 56, marginBottom: 12 }}>⚡</div>
               <div style={{ fontSize: 20, fontWeight: 800, marginBottom: 4 }}>Quiz · <span style={{ color }}>{level}</span></div>
-              <div style={{ fontSize: 13, color: "rgba(255,255,255,0.5)", marginBottom: 28 }}>Kiểm tra 5 từ hôm nay</div>
+              <div style={{ fontSize: 13, color: "rgba(255,255,255,0.5)", marginBottom: 8 }}>Kiểm tra 5 từ hôm nay</div>
+              <div style={{ fontSize: 12, color: "rgba(255,255,255,0.35)", marginBottom: 28 }}>
+                Bộ {todaySetIdx + 1}/{setCount}  ·  {todayWords.map(w => w.kanji).join(" ")}
+              </div>
               <button onClick={() => setQuizActive(true)} style={{ background: `linear-gradient(135deg,${color},#FFD700)`, color: "#1a1a2e", border: "none", borderRadius: 14, padding: "16px 48px", fontWeight: 900, fontSize: 16, cursor: "pointer" }}>Bắt đầu!</button>
             </div>
             : <QuizView words={todayWords} level={level} onDone={() => setQuizActive(false)} />
